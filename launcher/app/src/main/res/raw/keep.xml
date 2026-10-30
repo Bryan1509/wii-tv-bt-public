@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app_banners names drawables at run time, which resource shrinking cannot see: keep every banner_*.
+     ThemedBanner looks up the optional local themed_apps_private array by name too. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/banner_*,@array/themed_apps_*" />
